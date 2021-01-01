@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link type="image/x-icon" rel="icon" href="images/icons/appicon.png"/>
+		<title>Unsubscribe from GringVoip Newsletter</title>
+		<link type="text/css" rel="stylesheet" href="css/unsubscribeFromNewsletter.css"/>
+		<script type="module" src="js/unsubscribeFromNewsletter.js"></script>
+	</head>
+	<body>
+		<div class="rex-height-50px rex-background-black">
+            <div class="rex-center-relative-div-vertical rex-center-text rex-fs-normal rex-color-white rex-weight-bold"><span class="rex-color-primary">G</span>Ring</div>
+		</div>
+
+		<div class="custom-content-center-div rex-width-50pp rex-center-div-horizontal rex-mt-32px rex-color-white">
+			<h1 class="custom-content-heading1 rex-fs-large">Unsubscribe</h1>
+
+			<p class="custom-content-paragraph rex-fs-normal rex-line-height-normal rex-mt-32px">
+				Your email address <b id="subscriberEmailContent"></b>
+			</p>
+
+			<p class="custom-content-paragraph rex-fs-normal rex-line-height-normal rex-mt-32px">
+				You will not receive any more emails about <span class="rex-color-secondary">GringVoip</span>
+			</p>
+
+			<button id="unsubscribeFromNewsletterBtn" class="custom-unsubscribe-btn rex-width-100pp rex-btn-primary rex-color-white rex-mt-32px rex-fs-small-50p">Unsubscribe</button>
+		</div>
+
+
+		<!-- Modal background -->
+		<div id="modalBackground" class="rex-modal-background rex-display-flex rex-center-flex-items">
+			<div id="progressContainerModal">
+				<img class="rex-width-50px rex-height-50px" src="images/icons/loading_spinner.gif"/>
+			</div>
+
+			<div id="unsubscribeFromNewsletterModal" class="rex-width-50pp rex-pad32px rex-curDiv-16px rex-background-blue rex-center-text rex-pad32px">
+				<p id="unsubscribeFromNewsletterMessage" class="rex-color-white rex-fs-small-50p rex-line-height-normal">Your email has been successfully removed from the GringVoip newsletter. Have a nice day.</p>
+				<button id="unsubscribeFromNewsletterModalOkBtn" class="rex-btn-secondary rex-color-white rex-width-100pp rex-mt-32px rex-fs-normal">Okay</button>
+			</div>
+		</div>
+	</body>
+</html>
